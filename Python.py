@@ -1,6 +1,9 @@
 
 print("Hello, World!")
 
+print("-" * 50)
+#Will print - 50 times one after the other exactly as within the "quotes"
+
 #This program will print out "this will print Hello, World!" without the quotes. 
 h = "Hello"
 w = "World"
