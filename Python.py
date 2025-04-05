@@ -47,4 +47,15 @@ for i in range(len(leg)):
 #Built in python class functions 
 .upper() #iterates over each character and converts input to uppercase 
 .isalpha() #ensures only alphabetic characters are processed (ignoring spaces, numbers, symbols, etc)
-ord(variable) #gets the ASCII value of whatever input variable (ex: A=65 - Z=90, etc.)
+ord(variable) #gets the ASCII value of whatever input variable 
+#(ex: A=65 - Z=90, etc.)
+.split() #breaks phrases into a list of words. By default, it splits whitespace. 
+#(ex: a variable = "Hello World Hi! 
+#variable.split() == ["Hello", "World", "Hi!"])
+"".join() #combines into a single string with whatever is in front. In this example, it is nothing joining things without spaces 
+#(ex: list = ["H", "e", "l", "l", "o"] 
+#joinedVar = "".join(i[0] for i in list) will print out Hello
+
+
+
+
