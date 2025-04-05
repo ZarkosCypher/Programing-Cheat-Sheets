@@ -41,3 +41,10 @@ for i, (miles, gas) in enumerate(leg, 1):
 for i in range(len(leg)):
   miles = leg[i][0]
   gas = legs[i][1]
+
+
+
+#Built in python class functions 
+.upper() #iterates over each character and converts input to uppercase 
+.isalpha() #ensures only alphabetic characters are processed (ignoring spaces, numbers, symbols, etc)
+ord(variable) #gets the ASCII value of whatever input variable (ex: A=65 - Z=90, etc.)
