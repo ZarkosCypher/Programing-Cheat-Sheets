@@ -28,13 +28,15 @@ for i in range(2):
   leg.append((miles, gas))
 for i, (miles, gas) in enumerate(leg, 1):
 #Pyhton has a enumerate() function with tuple unpacking 
-#The leg list is a list of tuples, where each tuple contains 2 values (miles, gas)
+#1 The leg list is a list of tuples, where each tuple contains 2 values (miles, gas)
 #Example: leg = [(2.1, 3.2), (4.5, 6.5)]
-#The enumerate() function goes by enumerate(iterable value, start index) generates pairs of (index value) for each item in the iterable 
+#2 The enumerate() function goes by enumerate(iterable value, start index) generates pairs of (index value) for each item in the iterable 
 #The start parameter "1" sets the starting index because, without it, the starting index would be 0
 #Example: (1, (200, 10)) is the first item
         #(2, (300, 12)) is the second item
+#3 The for loop unpacks each pair from enumerate() in to two variables, i gets the index 1, 2 ...
 
+  
 #This is a simplified version of 
 for i in range(len(leg)):
   miles = leg[i][0]
