@@ -59,6 +59,10 @@ ord(variable) #gets the ASCII value of whatever input variable
 #(ex: list = ["H", "e", "l", "l", "o"] 
 #joinedVar = "".join(i[0] for i in list) will print out Hello
 
-
+low = -50
+high = 50
+increment = 10 
+variable = range(low, high, increment)
+#variable holds all the numbers between low and high by the increment EX: variable == -50, -40, -30, ... 30, 40, 50
 
 
