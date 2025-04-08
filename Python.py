@@ -16,6 +16,9 @@ print(f"this will print a float 2.0 {a:.1f} and this can also print regular inte
 #The .1f specifies how to format the code 
 #.1 means show 1 digit after the decimal point 
 # The f at the end of .1f means format as a floating point number 
+print(f"{years:<4}  ${principal:,.2f}")
+#The :<4 left aligns the year number in a 4-character field
+#The :,.2f Formats the value as currency with commas and the 2 decimal places EX: 1,500.00
 
 # This list is going to hold 2 values per slot so leg[1] is going to equal miles[1] and gas[1]  
 leg = []
