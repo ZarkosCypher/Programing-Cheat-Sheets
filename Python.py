@@ -60,7 +60,7 @@ ord(variable) #gets the ASCII value of whatever input variable
 #joinedVar = "".join(i[0] for i in list) will print out Hello
 
 low = -50
-high = 50
+high = 50 + 1 #add 1 so it stops at the number you want, for example, if you want 50 you would put 51. it stops 1 number before whatyou put  
 increment = 10 
 variable = range(low, high, increment)
 #variable holds all the numbers between low and high by the increment EX: variable == -50, -40, -30, ... 30, 40, 50
