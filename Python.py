@@ -19,6 +19,31 @@ print(f"this will print a float 2.0 {a:.1f} and this can also print regular inte
 print(f"{years:<4}  ${principal:,.2f}")
 #The :<4 left aligns the year number in a 4-character field
 #The :,.2f Formats the value as currency with commas and the 2 decimal places EX: 1,500.00
+print(value, end=" ")
+#In Python, end=" " is a parameter used to specify what string should be printed at the end of the output, 
+#instead of the default newline character (\n). By default, print() adds a newline after each call, 
+#When you set end=" ", it replaces that newline with a space, meaning the next print() output will continue on the same line, separated by a space.
+#value: The content to print.
+#end: The string appended after value (defaults to "\n").
+
+#Default behavior (end="\n")
+print("Hello")
+print("World")
+#Output:
+#Hello
+#World
+#Using end=" "
+print("Hello", end=" ")
+print("World")
+#Output:
+#Hello World
+
+
+
+
+
+
+
 
 # This list is going to hold 2 values per slot so leg[1] is going to equal miles[1] and gas[1]  
 leg = []
