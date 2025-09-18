@@ -15,6 +15,7 @@ Comment
 `print()` will print text to the terminal 
 ```python
 print("Hello, World!")
+#Hello, World!
 ```
 ```python
 print("-" * 50)
