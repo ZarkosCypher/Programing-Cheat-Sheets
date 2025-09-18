@@ -4,6 +4,8 @@ For the things I have examples of I will have their outputs put in as a comment 
 ```python
 #this is an example output
 ```
+So lets get in to it~!
+
 ### Comments: ###
 Human readable comments that will not be ran by the machine   
 ```python
