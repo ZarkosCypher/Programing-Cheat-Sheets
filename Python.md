@@ -1,4 +1,13 @@
 ```python
+#This is a single line comment
+"""
+This
+Is
+A
+Multi
+Line
+Comment
+"""
 ```
 
 ```python
