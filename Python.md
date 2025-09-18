@@ -20,6 +20,20 @@ Line
 Comment
 """
 ```
+
+### Operators 
+We use mathematical, comparison, and logical operators in our codes to compare and alter values and make decisions.
+Mathematical Operators
+Use mathematical operators to alter values.
+<span style="color: red;">+</span>   Addition
+-   Subtraction
+*   Multiplication
+/   Division
+**  Power
+%   Modulus (Remainder)
+()  Parentheses (For order of operations)
+
+
 ### Displaying text to terminal
 `print()` will print text to the terminal 
 ```python
