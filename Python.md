@@ -1,11 +1,14 @@
 ```python
+```
 
-
+```python
 print("Hello, World!")
-
+```
+```python
 print("-" * 50)
 #Will print - 50 times one after the other exactly as within the "quotes"
-
+```
+```python
 #This program will print out "this will print Hello, World!" without the quotes. 
 h = "Hello"
 w = "World"
@@ -27,7 +30,8 @@ print(value, end=" ")
 #When you set end=" ", it replaces that newline with a space, meaning the next print() output will continue on the same line, separated by a space.
 #value: The content to print.
 #end: The string appended after value (defaults to "\n").
-
+```
+```python
 #Default behavior (end="\n")
 print("Hello")
 print("World")
@@ -39,14 +43,14 @@ print("Hello", end=" ")
 print("World")
 #Output:
 #Hello World
+```
 
 
 
 
 
 
-
-
+```python
 # This list is going to hold 2 values per slot so leg[1] is going to equal miles[1] and gas[1]  
 leg = []
 miles = 12
@@ -65,15 +69,15 @@ for i, (miles, gas) in enumerate(leg, 1):
 #Example: (1, (200, 10)) is the first item
         #(2, (300, 12)) is the second item
 #3 The for loop unpacks each pair from enumerate() in to two variables, i gets the index 1, 2 ...
-
-  
+```
+```python
 #This is a simplified version of 
 for i in range(len(leg)):
   miles = leg[i][0]
   gas = legs[i][1]
+```
 
-
-
+```python
 #Built in python class functions 
 .upper() #iterates over each character and converts input to uppercase 
 .isalpha() #ensures only alphabetic characters are processed (ignoring spaces, numbers, symbols, etc)
@@ -85,12 +89,14 @@ ord(variable) #gets the ASCII value of whatever input variable
 "".join() #combines into a single string with whatever is in front. In this example, it is nothing joining things without spaces 
 #(ex: list = ["H", "e", "l", "l", "o"] 
 #joinedVar = "".join(i[0] for i in list) will print out Hello
-
+```
+```python
 low = -50
 high = 50 + 1 #add 1 so it stops at the number you want, for example, if you want 50 you would put 51. it stops 1 number before whatyou put  
 increment = 10 
 variable = range(low, high, increment)
 #variable holds all the numbers between low and high by the increment EX: variable == -50, -40, -30, ... 30, 40, 50
+```
 
 
 
@@ -99,8 +105,7 @@ variable = range(low, high, increment)
 
 
 
-
-
+```python
 #This is the general thing to do compairing things in a while loop, checking stuff and things i will figure out wording later i am very tired loooooool
 while True:
   try:
