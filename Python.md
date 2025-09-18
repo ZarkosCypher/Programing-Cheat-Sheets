@@ -11,7 +11,8 @@ Line
 Comment
 """
 ```
-
+### Displaying text to terminal
+`print()` will print text to the terminal 
 ```python
 print("Hello, World!")
 ```
