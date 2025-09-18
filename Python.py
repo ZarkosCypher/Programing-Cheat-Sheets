@@ -91,3 +91,21 @@ variable = range(low, high, increment)
 #variable holds all the numbers between low and high by the increment EX: variable == -50, -40, -30, ... 30, 40, 50
 
 
+
+
+
+
+
+
+
+
+#This is the general thing to do compairing things in a while loop, checking stuff and things i will figure out wording later i am very tired loooooool
+while True:
+  try:
+    if compaire != var:
+      continue
+    else:
+      continue
+    break
+  except ValueError:
+    print("Enter a number!")
