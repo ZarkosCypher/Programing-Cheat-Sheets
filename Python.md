@@ -25,15 +25,14 @@ Comment
 We use mathematical, comparison, and logical operators in our codes to compare and alter values and make decisions.
 Mathematical Operators
 Use mathematical operators to alter values.
-<p>
-  +   Addition
-  -   Subtraction
-  *   Multiplication
-  /   Division
-  **  Power
-  %   Modulus (Remainder)
-  ()  Parentheses (For order of operations)
-</p>
+<p> +   Addition </p>
+<p> -   Subtraction </p>
+<p> *   Multiplication </p>
+<p> /   Division </p>
+<p> **  Power </p>
+<p> %   Modulus (Remainder) </p>
+<p> ()  Parentheses (For order of operations) </p>
+
 
 ### Displaying text to terminal
 `print()` will print text to the terminal 
