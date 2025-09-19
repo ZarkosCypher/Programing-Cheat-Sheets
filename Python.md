@@ -7,7 +7,7 @@ For the things I have examples of I will have their outputs put in as a comment 
 So lets get in to it~!
 
 ---
-### Comments: ###
+# Comments: 
 Human readable comments that will not be ran by the machine   
 ```python
 #This is a single line comment
@@ -21,7 +21,7 @@ Comment
 """
 ```
 
-### Operators 
+# Operators 
 We use mathematical, comparison, and logical operators in our codes to compare and alter values and make decisions.
 Mathematical Operators
 Use mathematical operators to alter values.
