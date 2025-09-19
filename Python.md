@@ -33,6 +33,43 @@ Use mathematical operators to alter values.
 <p> %   Modulus (Remainder) </p>
 <p> ()  Parentheses (For order of operations) </p>
 
+```python
+# Examples
+z = x + y
+w = x * y
+
+# Division
+a = 5.0 / 2                     # Returns 2.5
+b = 5.0 // 2                    # Returns 2.0
+c = 5/2                         # Returns 2.5
+d = 5 // 2                      # Returns 2
+
+# Increment (add one)
+x += 1
+
+# Decrement (subtract one)
+x -= 1
+
+# Absolute value
+absolute_value = abs(x)
+
+abs_val = abs(-5)               # Returns 5
+
+# Square root
+import math
+square_root = math.sqrt(x)
+
+# Raising to a power
+power = math.pow(x, y)          # Calculates x^y
+# Alternate
+power = x**y                    # Calculates x^y
+
+# Rounding
+rounded_num = round(2.675, 2)   # Returns 2.68
+```
+
+
+
 
 ### Displaying text to terminal
 `print()` will print text to the terminal 
