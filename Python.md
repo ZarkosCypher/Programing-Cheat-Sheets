@@ -68,7 +68,35 @@ power = x**y                    # Calculates x^y
 # Rounding
 rounded_num = round(2.675, 2)   # Returns 2.68
 ```
+Comparison Operators
+Use comparison operators to compare elements in order to make decisions in your code. Comparison operators return booleans (True/False).
+```python
+x == y      # is x equal to y
+x != y      # is x not equal to y
+x > y       # is x greater than y
+x >= y      # is x greater than or equal to y
+x < y       # is x less than y
+x <= y      # is x less than or equal to y
 
+# Comparison operators in if statements
+if x == y:
+    print("x and y are equal")
+
+if x > 5:
+    print("x is greater than 5.")
+```
+Logical Operators
+Use logical operators to check multiple conditions at once or one condition out of multiple.
+```python
+# And Operator
+and_expression = x and y
+
+# Or Operator
+or_expression = x or y
+
+# You can combine many booleans!
+boolean_expression = x and (y or z)
+```
 
 
 
