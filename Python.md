@@ -25,6 +25,8 @@ Comment
 We use mathematical, comparison, and logical operators in our codes to compare and alter values and make decisions.
 Mathematical Operators
 Use mathematical operators to alter values.
+
+```python
 <p> +   Addition </p>
 <p> -   Subtraction </p>
 <p> *   Multiplication </p>
@@ -33,7 +35,7 @@ Use mathematical operators to alter values.
 <p> %   Modulus (Remainder) </p>
 <p> ()  Parentheses (For order of operations) </p>
 
-```python
+
 # Examples
 z = x + y
 w = x * y
