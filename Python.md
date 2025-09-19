@@ -1,10 +1,3 @@
-<head>
-<style>
-    .highlight {
-      color: blue;
-    }
-</style>
-</head>
 # Python!
 Here I will post simple python things (I cant remeber the name of right now), and their explinations of what they do, as well as some helpfull "Scripts" that can be reused. 
 For the things I have examples of I will have their outputs put in as a comment EX:
@@ -32,7 +25,7 @@ Comment
 We use mathematical, comparison, and logical operators in our codes to compare and alter values and make decisions.
 Mathematical Operators
 Use mathematical operators to alter values.
-<p> <span class="highlight">+</span>   Addition </p>
+<p> +   Addition </p>
 <p> -   Subtraction </p>
 <p> *   Multiplication </p>
 <p> /   Division </p>
