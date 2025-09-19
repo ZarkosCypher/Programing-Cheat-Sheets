@@ -27,13 +27,13 @@ Mathematical Operators
 Use mathematical operators to alter values.
 
 ```python
-<p> +   Addition </p>
-<p> -   Subtraction </p>
-<p> *   Multiplication </p>
-<p> /   Division </p>
-<p> **  Power </p>
-<p> %   Modulus (Remainder) </p>
-<p> ()  Parentheses (For order of operations) </p>
++   Addition </p>
+-   Subtraction </p>
+*   Multiplication </p>
+/   Division </p>
+**  Power </p>
+%   Modulus (Remainder) </p>
+()  Parentheses (For order of operations) </p>
 
 
 # Examples
