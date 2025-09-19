@@ -1,9 +1,10 @@
+<head>
 <style>
     .highlight {
       color: blue;
     }
 </style>
-
+</head>
 # Python!
 Here I will post simple python things (I cant remeber the name of right now), and their explinations of what they do, as well as some helpfull "Scripts" that can be reused. 
 For the things I have examples of I will have their outputs put in as a comment EX:
