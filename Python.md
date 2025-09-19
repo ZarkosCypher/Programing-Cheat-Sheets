@@ -100,7 +100,7 @@ boolean_expression = x and (y or z)
 
 
 
-### Displaying text to terminal
+# Displaying text to terminal
 `print()` will print text to the terminal 
 ```python
 print("Hello, World!")
