@@ -25,7 +25,7 @@ Comment
 We use mathematical, comparison, and logical operators in our codes to compare and alter values and make decisions.
 Mathematical Operators
 Use mathematical operators to alter values.
-<p> +   Addition </p>
+<p> <span style="color: red;">+</span>   Addition </p>
 <p> -   Subtraction </p>
 <p> *   Multiplication </p>
 <p> /   Division </p>
